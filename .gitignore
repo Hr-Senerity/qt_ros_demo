@@ -1,0 +1,13 @@
+# catkin / colcon 构建与工作空间产物
+build/
+devel/
+install/
+log/
+logs/
+
+# Qt Creator / IDE
+CMakeLists.txt.user
+*.user
+*.autosave
+.vscode/
+.idea/

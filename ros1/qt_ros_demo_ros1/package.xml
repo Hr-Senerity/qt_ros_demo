@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>qt_ros_demo_ros1</name>
+  <version>0.1.0</version>
+  <description>qt_ros_demo 的 ROS1 (Noetic) 薄壳包：catkin + roscpp，把 common 里的纯 Qt 界面接上 ROS1。</description>
+  <maintainer email="he_13453020249@163.com">Hr-Senerity</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+
+  <depend>roscpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>qtbase5-dev</depend>
+
+  <export>
+    <!-- 与 ros2/ 下的对应包互斥：不要放进同一个工作空间构建 -->
+  </export>
+</package>

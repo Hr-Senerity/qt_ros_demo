@@ -1,0 +1,5 @@
+<launch>
+  <!-- 话题重映射示例：取消注释并按需修改 -->
+  <!-- <remap from="odom" to="/robot1/odom"/> -->
+  <node name="qt_gui_node" pkg="qt_ros_demo_ros1" type="qt_gui_node" output="screen"/>
+</launch>

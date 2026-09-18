@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>qt_ros_demo_ros2</name>
+  <version>0.1.0</version>
+  <description>qt_ros_demo 的 ROS2 (Foxy/Humble) 薄壳包：colcon + rclcpp，把 common 里的纯 Qt 界面接上 ROS2。</description>
+  <maintainer email="he_13453020249@163.com">Hr-Senerity</maintainer>
+  <license>Apache-2.0</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>nav_msgs</depend>
+  <depend>qtbase5-dev</depend>
+
+  <exec_depend>ros2launch</exec_depend>
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

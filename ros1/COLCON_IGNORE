@@ -1,0 +1,1 @@
+# ros1/ 目录对 colcon 不可见：整个仓库放进 ROS2 工作空间时，避免 colcon 扫到 ROS1 包。

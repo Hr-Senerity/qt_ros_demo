@@ -1,0 +1,1 @@
+# ros2/ 目录对 catkin 不可见：整个仓库放进 ROS1 工作空间时，避免 catkin 扫到 ROS2 包。
